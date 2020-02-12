@@ -1,6 +1,6 @@
+package learningDevelopment;
 
 public class PrimeNumberCheck {
-
 
 	public static long findSumofPrimes() {
 		int maxNumber = 100;
