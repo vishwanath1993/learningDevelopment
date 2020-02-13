@@ -7,11 +7,13 @@ import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import org.junit.jupiter.api.Test;
 
 public class PrimeNumberCheckTest {
-	
+
+	private static long sum = 0;
+
 	@Test
 	void test() {
-		
-		long sum = PrimeNumberCheck.findSumofPrimes();
+
+		sum = PrimeNumberCheck.findSumofPrimes();
 		assertNotNull(sum);
 		assertEquals(1060, sum);
 		assertNotEquals(25, sum);
