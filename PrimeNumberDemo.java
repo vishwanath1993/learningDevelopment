@@ -4,7 +4,7 @@ public class PrimeNumberDemo {
 
 	public static void main(String[] args) {
 
-		long sum = PrimeNumberCheck.findSumofPrimes();
+		long sum = new PrimeNumberCheck().findSumofPrimes();
 
 		System.out.println("Sum is " + sum);
 

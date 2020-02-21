@@ -8,12 +8,12 @@ import org.junit.jupiter.api.Test;
 
 public class PrimeNumberCheckTest {
 
-	private static long sum = 0;
+	private long sum = 0;
 
 	@Test
 	void test() {
 
-		sum = PrimeNumberCheck.findSumofPrimes();
+		sum = new PrimeNumberCheck().findSumofPrimes();
 		assertNotNull(sum);
 		assertEquals(1060, sum);
 		assertNotEquals(25, sum);
