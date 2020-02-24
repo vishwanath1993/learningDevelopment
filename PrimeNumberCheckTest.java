@@ -20,8 +20,8 @@ public class PrimeNumberCheckTest {
 	public void testPrimeNumberChecker() {
 
 		assertNotNull(check);
-		assertEquals(1060, check.findSumofPrimes());
-		assertNotEquals(100, check.findSumofPrimes());
+		assertEquals(1060, check.findSumofPrimes(100));
+		assertNotEquals(100, check.findSumofPrimes(10));
 
 	}
 }

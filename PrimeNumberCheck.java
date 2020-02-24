@@ -1,15 +1,11 @@
 package learningDevelopment;
 
-import java.util.Scanner;
-
 public class PrimeNumberCheck {
 
 	private long sum = 0;
 
-	public long findSumofPrimes() {
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter a number");
-		int startNumber, maxNumber = sc.nextInt();
+	public long findSumofPrimes(int maxNumber) {
+		int startNumber;
 		sum = 0;
 		for (startNumber = 2; startNumber < maxNumber; startNumber++) {
 			boolean checkPrime = true;
