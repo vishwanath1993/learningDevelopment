@@ -1,6 +1,8 @@
 package learningDevelopment;
 
+import static org.junit.Assert.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -17,6 +19,9 @@ public class PrimeNumberCheckTest {
 	@Test
 	public void testPrimeNumberChecker() {
 
+		assertNotNull(check);
 		assertEquals(1060, check.findSumofPrimes());
+		assertNotEquals(100, check.findSumofPrimes());
+
 	}
 }
