@@ -15,6 +15,7 @@ public class PrimeNumberTest {
 	private int inputNumber;
 	private int expectedSum;
 	private PrimeNumberCheck primeNumberCheck;
+	
 
 	@Before
 	public void initialize() {
